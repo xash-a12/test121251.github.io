@@ -1,0 +1,62 @@
+    body {
+        background-color: white;
+        margin: 0;
+    }
+    
+    p {
+        font-family: "Poppins";
+        margin: 0;
+    }
+    
+    #subtitle {
+        color: #fca311;
+        font-weight: bold;
+        letter-spacing: 2px;
+        text-transform: capitalize;
+    }
+    
+    #title {
+        color: white;
+        font-size: 50px;
+        margin: 0;
+    }
+    
+    #welcome {
+        background-color: black;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #projects-section {
+        background-color: darkcyan;
+        padding-top: 50px;
+        padding-bottom: 500px;
+    }
+    
+    #project-title {
+        font-weight: bold;
+        text-align: center;
+        font-size: 35;
+        color: rgb(0, 89, 255);
+        margin: 0;
+    }
+    
+    #project-hr {
+        width: 95%;
+    }
+    
+    .project-box {
+        height: 500px;
+        width: 250px;
+        border: 1px solid black;
+        margin: 10px;
+    }
+    
+    #project-flex {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
